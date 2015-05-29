@@ -1,0 +1,10 @@
+{
+    "require": {
+    	"zeuxisoo/slim-whoops": "0.4.0.*@dev",
+        "illuminate/database": "*",
+        "monolog/monolog": "~1.4,>=1.4.1",
+        "vlucas/phpdotenv": "*",
+        "slim/slim": "3.0.x-dev",
+        "slim/twig-view": "^1.0"
+    }
+}
