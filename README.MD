@@ -24,7 +24,7 @@ app/                  # All the backend stuff goes here
 public/               # All the public facing stuff goes here
 |- .htaccess          # URL rewrite happens here
 |- index.php          # All the main files get put together here. You app starts in this file.
-logs/
+logs/                 # A place to put all the logs
 ```
 
 Running the code
