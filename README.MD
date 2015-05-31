@@ -29,7 +29,9 @@ logs/                 # A place to put all the logs
 
 Running the code
 --------------------
+```
 http://<your url>/public/hello/<random name here>
+```
 
 Ideally you want to configure your VHOST to point to /public/index.php:
 
