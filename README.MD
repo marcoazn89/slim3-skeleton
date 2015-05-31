@@ -12,7 +12,7 @@ File Structure
 --------------------
 ```
 app/                  # All the backend stuff goes here
-|- controllers/       # Place to put controllers to handle all the data, functions, etc.
+|- controllers/       # Place to put controllers to handle all the data, functions, etc
 |- lib/               # Place to put your own libraries
 |- models/            # Place to put the models that interact with the database
 |- views/             # Place to put the view files
@@ -23,7 +23,7 @@ app/                  # All the backend stuff goes here
 |- routes.php         # Here you declare the routes
 public/               # All the public facing stuff goes here
 |- .htaccess          # URL rewrite happens here
-|- index.php          # All the main files get put together here. You app starts in this file.
+|- index.php          # All the main files get put together here. You app starts in this file
 logs/                 # A place to put all the logs
 ```
 
