@@ -3,7 +3,7 @@ $status = \HTTP\Response\Status::getInstance();
 ?>
 <html>
   <head>
-    <title>Talentinc - <?php echo $status->getCode();?></title>
+    <title>MyApp - <?php echo $status->getCode();?></title>
 <link href='https://www.dropbox.com/static/css/error.css' rel='stylesheet' type='text/css'>
 <link rel='shortcut icon' href='http://www.coventrywebgraphicdesign.co.uk/wp-content/uploads/logo-here.jpg'>
 </head>

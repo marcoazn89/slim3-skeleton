@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Talentinc - 500</title>
+    <title>MyApp - 500</title>
 <link href='https://www.dropbox.com/static/css/error.css' rel='stylesheet' type='text/css'>
 <link rel='shortcut icon' href='http://www.coventrywebgraphicdesign.co.uk/wp-content/uploads/logo-here.jpg'>
 </head>
