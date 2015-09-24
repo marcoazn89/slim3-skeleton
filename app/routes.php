@@ -1,5 +1,5 @@
 <?php
-$app->get('/', function($response) {
+$app->get('/', function($request, $response, $app) {
   return $response->write('Welcome to my app');
 });
 
