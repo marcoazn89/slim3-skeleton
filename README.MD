@@ -32,9 +32,9 @@ logs/                     # A place to put all the logs
 Running the code
 --------------------
 ```
-http://<your url>/public/fail/
-http://<your url>/public/success/<name>/?job=<something>
-http://<your url>/public/nonesense
+http://<your url>/fail/
+http://<your url>/success/<name>/?job=<something>
+http://<your url>/nonesense
 ```
 
 Ideally you want to configure your VHOST to point to /public/index.php:
