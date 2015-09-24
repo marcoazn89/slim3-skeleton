@@ -3,12 +3,6 @@
 
 $container = $app->getContainer();
 
-// Twig
-$container->register(new \Slim\Views\Twig(
-	$app->settings['views']['path'],
-	$app->settings['twig']
-));
-
 /**
  * MySQL
  * This mysql implementation is the one used in laravel. Check the links for documentation.
