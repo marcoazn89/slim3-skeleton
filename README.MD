@@ -11,20 +11,22 @@ Install Dependencies
 File Structure
 --------------------
 ```
-app/                  # All the backend stuff goes here
-|- controllers/       # Place to put controllers to handle all the data, functions, etc
-|- lib/               # Place to put your own libraries
-|- models/            # Place to put the models that interact with the database
-|- views/             # Place to put the view files
-|- bootstrap.php      # This is what wires the app
-|- config.php         # Here's where you would put the configurations to be used in the app
-|- dependencies.php   # Here you add your depedencies
-|- middleware.php     # Here you add the middlewares
-|- routes.php         # Here you declare the routes
-public/               # All the public facing stuff goes here
-|- .htaccess          # URL rewrite happens here
-|- index.php          # All the main files get put together here. You app starts in this file
-logs/                 # A place to put all the logs
+app/                      # All the backend stuff goes here
+|- Controllers/           # Place to put controllers to handle all the data, functions, etc
+|- Libraries/             # Place to put your own libraries
+|- Models/                # Place to put the models that interact with the database
+|- Views/                 # Place to put the view files
+|- bootstrap.php          # This is what wires the app
+|- config_development.php # Here's where you would put the configurations to be used in the app
+|- config_production.php  # Here's where you would put the configurations to be used in the app
+|- dependencies.php       # Here you add your depedencies
+|- environment.php        # Here you add the middlewares
+|- middlewares.php        # Here you add the middlewares
+|- routes.php             # Here you declare the routes
+public/                   # All the public facing stuff goes here
+|- .htaccess              # URL rewrite happens here
+|- index.php              # All the main files get put together here. You app starts in this file
+logs/                     # A place to put all the logs
 ```
 
 Running the code
