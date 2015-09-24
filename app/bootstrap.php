@@ -1,13 +1,20 @@
 <?php
-require '../vendor/autoload.php';
+/**
+ * Bootstrap
+ *
+ * Assemble the app here.
+ */
+require 'environment.php';
 
-$settings = require __DIR__.'/config.php';
+require __DIR__ . '/../vendor/autoload.php';
+
+$settings = require __DIR__ .'/config_'. ENVIRONMENT .'.php';
 
 $app = new \Slim\App($settings);
 
 require __DIR__.'/dependencies.php';
 
-require __DIR__.'/middleware.php';
+require __DIR__.'/middlewares.php';
 
 require __DIR__.'/routes.php';
 

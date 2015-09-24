@@ -7,7 +7,15 @@
         "aws/aws-sdk-php": "3.3.0",
         "marcoazn89/http-wrapper": "dev-dev",
         "marcoazn89/booboo": "dev-master",
+        "marcoazn89/slim-booboo": "dev-master",
+        "marcoazn89/slim-booboo-whoops": "dev-master",
         "monolog/monolog": "1.17.1",
-        "marcoazn89/slim-booboo-whoops": "dev-master"
+        "vlucas/phpdotenv": "^2.0",
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+          "MyApp\\": "app/"
+        }
     }
 }
